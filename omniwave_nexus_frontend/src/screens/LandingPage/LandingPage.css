@@ -1,0 +1,228 @@
+/* General Styles */
+body,
+html {
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+}
+
+.title-wrap {
+  padding: 20px;
+  background: white;
+  border-radius: 20px;
+}
+
+.target-audience-paragraph {
+  text-align: left;
+}
+
+/* Style for the #try-button */
+#try-button {
+  background-color: #ffcc00; /* Bright yellow to stand out */
+  color: #ffffff;
+  padding: 15px 30px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 50px; /* Rounded edges */
+  text-align: center;
+  display: inline-block;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+#try-button:hover {
+  background-color: #ff9900; 
+  color: #ffffff;
+  transform: translateY(-3px); 
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); 
+}
+
+#try-button strong {
+  color: #000000; /* Contrast strong text with a black color */
+  font-weight: bolder;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+}
+
+p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+/* Hero Section */
+.hero-section {
+  height: 100vh;
+  background-image: url("../assets/hero-background.jpg"); /* Replace with your image */
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.hero-section h1 {
+  font-size: 3rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.hero-section .btn {
+  font-size: 1.2rem;
+  padding: 0.75rem 2rem;
+}
+
+/* Features Section */
+.features-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.features-section i {
+  color: #0d6efd;
+}
+
+.features-section h5 {
+  margin-top: 1rem;
+  font-size: 1.25rem;
+}
+
+.features-section p {
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  color: #666;
+}
+
+/* Audience Section */
+.audience-section {
+  padding: 25px;
+}
+.audience-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.audience-section h5 {
+  font-size: 1.3rem;
+}
+
+.audience-section p {
+  font-size: 1rem;
+  color: #bbb;
+}
+
+/* Results Section */
+.results-section img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.results-section h5 {
+  margin-top: 1rem;
+  font-size: 1.25rem;
+}
+
+/* Pricing Section */
+.pricing-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.card {
+  border: none;
+  padding: 2rem;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  font-size: 1.5rem;
+}
+
+.card-text {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.btn-outline-primary {
+  color: #0d6efd;
+  border-color: #0d6efd;
+}
+
+.btn-outline-primary:hover {
+  background-color: #0d6efd;
+  color: #fff;
+}
+
+.btn-primary {
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+/* Contact Section */
+.contact-section {
+  background: #343a40;
+  color: #fff;
+}
+
+.contact-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.contact-section input,
+.contact-section textarea {
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.contact-section input:focus,
+.contact-section textarea:focus {
+  outline: none;
+  border-color: #0d6efd;
+  box-shadow: 0 0 5px rgba(13, 110, 253, 0.5);
+}
+
+.contact-section button {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1.2rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .hero-section h1 {
+    font-size: 2.5rem;
+  }
+
+  .features-section .row > div,
+  .pricing-section .row > div {
+    margin-bottom: 2rem;
+  }
+
+  .audience-section h5,
+  .results-section h5 {
+    font-size: 1.1rem;
+  }
+}
