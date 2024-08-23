@@ -1,6 +1,6 @@
 import "./NavBar.css";
-import "../../fonts/Poppins.css";
-import OmniwaveNexus from "../assets/OmniWave_Nexus_logo__Dec_21__2023_-removebg-preview.png";
+import "../../../fonts/Poppins.css";
+import OmniwaveNexus from "../../assets/OmniWave_Nexus_logo__Dec_21__2023_-removebg-preview.png";
 
 const NavBar = () => {
   return (

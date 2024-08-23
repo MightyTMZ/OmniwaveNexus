@@ -20,7 +20,7 @@ html {
 /* Style for the #try-button */
 #try-button {
   background-color: #ffcc00; /* Bright yellow to stand out */
-  color: #ffffff;
+  color: #333;
   padding: 15px 30px;
   font-size: 1.1rem;
   font-weight: bold;
