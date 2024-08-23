@@ -8,5 +8,8 @@ class CustomUser(AbstractUser):
     email = models.EmailField(unique=True)
     # Add additional fields such as profile picture or industry/field in the future
 
+    USERNAME_FIELD = "email"
+    REQUIRED_FIELDS = []
+
     def __str__(self):
         return f"{self.first_name} {self.last_name} - {self.email}"

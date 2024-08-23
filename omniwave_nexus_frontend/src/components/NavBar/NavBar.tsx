@@ -55,7 +55,7 @@ const NavBar = () => {
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#about">
-                Be the first to use it!
+                Join for free
               </a>
             </li>
           </ul>
