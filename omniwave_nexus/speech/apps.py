@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class ProductConfig(AppConfig):
+class SpeechConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'product'
+    name = 'speech'
